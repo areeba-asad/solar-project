@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Book Installation</title>
+
+<link rel="stylesheet" href="form.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>Bright<span>Energy</span></h2>
+                <p>And Treaders</p>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="installation.html"> Installation</a></li>
+                <li><a href="problem-report.html">Report A Problem</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+<section class="installation">
+
+<h1>BOOK INSTALLATION</h1>
+
+<div class="install-container">
+
+<!-- LEFT -->
+
+<div class="install-form">
+
+<form id="installForm">
+
+<input type="text"
+id="name"
+placeholder="Full Name"
+required>
+
+<input type="tel"
+id="phone"
+placeholder="Phone Number"
+required>
+
+<input type="tel"
+id="whatsapp"
+placeholder="WhatsApp Number"
+required>
+
+<textarea
+id="address"
+placeholder="Address"
+required></textarea>
+
+<select id="city">
+
+<option>Karachi</option>
+
+<option>Lahore</option>
+
+<option>Islamabad</option>
+
+<option>Hyderabad</option>
+
+<option>Other</option>
+
+</select>
+
+<select id="property">
+
+<option>Property Type</option>
+
+<option>Home</option>
+
+<option>Office</option>
+
+<option>Factory</option>
+
+<option>Shop</option>
+
+</select>
+
+<input
+type="number"
+id="bill"
+placeholder="Monthly Electricity Bill (PKR)">
+
+<select id="system">
+
+<option>Required System Size</option>
+
+<option>3 kW</option>
+
+<option>5 kW</option>
+
+<option>8 kW</option>
+
+<option>10 kW</option>
+
+<option>15+ kW</option>
+
+</select>
+
+<textarea
+id="problem"
+placeholder="Problem Description / Requirements"></textarea>
+
+<input
+type="date"
+id="date">
+
+<button
+type="button"
+onclick="submitInstallation()">
+
+Submit Request
+
+</button>
+
+</form>
+
+<div id="message"></div>
+
+</div>
+
+<!-- RIGHT -->
+
+<div class="install-right">
+
+<img src="enginer.jpg" alt="Installation">
+
+<div class="benefits">
+
+<p>
+<i class="fa-solid fa-medal"></i>
+Free Site Visit
+</p>
+
+<p>
+<i class="fa-solid fa-coins"></i>
+Best Price Guarantee
+</p>
+
+<p>
+<i class="fa-solid fa-screwdriver-wrench"></i>
+Quality Installation
+</p>
+
+<p>
+<i class="fa-solid fa-headset"></i>
+After Sales Support
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>

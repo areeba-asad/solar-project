@@ -1,0 +1,166 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0d0d0d;
+    color:#fff;
+}
+
+/* ================= NAVBAR ================= */
+
+header{
+    width:100%;
+    background:#111;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+    border-bottom:1px solid #222;
+}
+
+.logo span{
+    color: #ffc107;
+}
+.logo{
+    color: #ffc107;
+    font-size: 28px;
+}
+.logo p{
+    color: #ffc107;
+    font-size: 13px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#ffc107;
+    font-size:15px;
+    transition:.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    color:#ffc107;
+}
+
+/* ================= PAGE TITLE ================= */
+
+.page-title{
+    background:#141414;
+    padding:40px 8%;
+}
+
+.page-title h1{
+    color:#ffc107;
+    font-size:35px;
+    margin-bottom:10px;
+}
+
+.page-title p{
+    color:#bbb;
+}
+
+/* ================= MAIN SECTION ================= */
+
+.report-container{
+    width:85%;
+    margin:50px auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+/* ================= FORM ================= */
+
+.report-form{
+    background:#181818;
+    padding:30px;
+    border-radius:12px;
+    border:1px solid #2a2a2a;
+}
+
+.report-form h2{
+    margin-bottom:20px;
+    color:#ffc107;
+}
+
+.report-form input,
+.report-form select,
+.report-form textarea{
+    width:100%;
+    margin-bottom:18px;
+    padding:14px;
+    background:white;
+    border:1px solid #333;
+    color:#111;
+    border-radius:8px;
+    outline:none;
+}
+
+.report-form input:focus,
+.report-form select:focus,
+.report-form textarea:focus{
+    border-color:#ffc107;
+}
+
+.report-form h3{
+    margin:20px 0;
+    color:#ffc107;
+}
+
+.checkbox-group{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.checkbox-group label{
+    color:#ddd;
+    font-size:14px;
+}
+
+.checkbox-group input{
+    width:auto;
+    margin-right:8px;
+}
+
+.upload{
+    display:block;
+    color:#ffc107;
+    margin-bottom:20px;
+    cursor:pointer;
+}
+
+.upload input{
+    margin-top:10px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    background:#ffc107;
+    color:#111;
+    border:none;
+    border-radius:8px;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#ffb300;
+}

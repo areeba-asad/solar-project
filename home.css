@@ -1,0 +1,756 @@
+/*==========================
+ GOOGLE FONT
+==========================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/*==========================
+ RESET
+==========================*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#111;
+    color:#ffc102;
+    line-height:1.6;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+/*==========================
+ TOP BAR
+==========================*/
+.top-bar{
+    background:#222;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    font-size:15px;
+}
+
+.top-bar i{
+    margin-right:8px;
+    color:#f39c12;
+}
+
+/*==========================
+ NAVBAR
+==========================*/
+nav{
+    background:#111;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo h2{
+    color:#ffc102;
+    font-size:28px;
+}
+
+.logo span{
+    color:#ffc102;
+}
+
+.logo p{
+    color:#ffc102;
+    font-size:13px;
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+}
+
+nav ul li a{
+    color:#ffc102;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#ffc102;
+}
+
+.installation-btn{
+    background:#ffc102;
+    color:#fff;
+    padding:12px 25px;
+    border-radius:6px;
+    transition:.3s;
+}
+
+.instalattion-btn:hover{
+    background:#111;
+    color:#000;
+}
+
+/*==========================
+ HERO
+==========================*/
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 8%;
+    background:linear-gradient(#111,#111);
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h1{
+    font-size:55px;
+    line-height:70px;
+    margin-bottom:20px;
+}
+
+.hero-text span{
+    color:#ffc102;
+}
+
+.hero-text p{
+    color:#fff;
+    font-size:17px;
+    margin-bottom:35px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:20px;
+}
+
+.btn1,
+.btn2{
+    padding:15px 30px;
+    border-radius:8px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn1{
+    background:#ffc102;
+    color:#111
+    ;
+}
+
+.btn2{
+    background:#f4b400;
+    color:#000;
+}
+
+.btn1:hover{
+    background:#ffc102;
+}
+
+.btn2:hover{
+    background:#d89d00;
+}
+
+.hero-image{
+    width:45%;
+}
+
+/*==========================
+ FEATURES
+==========================*/
+.features{
+    padding:70px 8%;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.box{
+    background:#111;
+    padding:35px;
+    text-align:center;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.box:hover{
+    transform:translateY(-8px);
+}
+
+.box i{
+    font-size:45px;
+    color:#ffc102;
+    margin-bottom:18px;
+}
+
+.box h3{
+    margin-bottom:12px;
+}
+
+.box p{
+    color:white;
+}
+
+/*==========================
+ ABOUT
+==========================*/
+.about{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:90px 8%;
+    gap:60px;
+}
+
+.about-image{
+    width:45%;
+}
+
+.about-text{
+    width:55%;
+}
+
+.about-text h5{
+    color:#111;
+    letter-spacing:2px;
+    margin-bottom:15px;
+}
+
+.about-text h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.about-text p{
+    color:white;
+    margin-bottom:30px;
+    text-align:justify;
+}
+/*==========================
+ SECTION TITLE
+==========================*/
+.title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.title h5{
+    color:#ffc102;
+    font-size:16px;
+    letter-spacing:2px;
+    margin-bottom:10px;
+    text-transform:uppercase;
+}
+
+.title h2{
+    font-size:40px;
+    color:#ffc102;
+}
+
+/*==========================
+ PRODUCTS
+==========================*/
+.products{
+    padding:90px 8%;
+    background:#111;
+}
+
+.product-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.product-box{
+    background:white;
+    border-radius:12px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.product-box:hover{
+    transform:translateY(-8px);
+    background:#111;
+    color:#fff;
+}
+
+.product-box img{
+    width:80px;
+    height:80px;
+    object-fit:contain;
+    margin:0 auto 20px;
+}
+
+.product-box h3{
+    font-size:18px;
+}
+
+/*==========================
+ SERVICES
+==========================*/
+.services{
+    padding:90px 8%;
+    background:#111;
+}
+
+.service-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.service-box{
+    background:#fff;
+    padding:35px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.service-box:hover{
+    background: #f39c12;
+    color: #fff;
+    transform:translateY(-8px);
+}
+
+.service-box i{
+    font-size:45px;
+    color:#111;
+    margin-bottom:20px;
+}
+
+.service-box h3{
+    font-size:20px;
+}
+
+/*==========================
+ SMART TOOLS
+==========================*/
+.tools{
+    padding:90px 8%;
+    background:#111;
+}
+
+.tool-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.tool-box{
+    background:#f7faf7;
+    padding:35px;
+    text-align:center;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.tool-box:hover{
+    background:#111;
+    color:#fff;
+    transform:translateY(-8px);
+}
+
+.tool-box i{
+    font-size:42px;
+    color:#f4b400;
+    margin-bottom:18px;
+}
+
+.tool-box h3{
+    margin-bottom:12px;
+    font-size:20px;
+}
+
+.tool-box p{
+    color:#666;
+}
+
+.tool-box:hover p{
+    color:#fff;
+}
+
+/*==========================
+ WHY CHOOSE US
+==========================*/
+.choose{
+    padding:90px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+    background:#111;
+}
+
+.choose-left{
+    width:55%;
+}
+
+.choose-left h5{
+    color:#111;
+    letter-spacing:2px;
+    margin-bottom:10px;
+}
+
+.choose-left h2{
+    font-size:40px;
+    margin-bottom:25px;
+}
+
+.choose-left ul li{
+    margin:18px 0;
+    font-size:18px;
+    color:white;
+}
+
+.choose-right{
+    width:45%;
+}
+
+.choose-right img{
+    width:100%;
+    border-radius:12px;
+}
+
+/*==========================
+ COUNTER
+==========================*/
+.counter{
+    background:#111;
+    color:#fff;
+    padding:70px 8%;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    text-align:center;
+}
+
+.counter-box h2{
+    font-size:45px;
+    color:#f4b400;
+    margin-bottom:10px;
+}
+
+.counter-box p{
+    font-size:17px;
+}/*==========================
+MISSION
+==========================*/
+.mission{
+    padding:80px 8%;
+    background:#111;
+}
+
+.mission-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:50px;
+}
+
+.mission-text{
+    flex:1;
+}
+
+.mission-text h5{
+    color:white;
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.mission-text h2{
+    font-size:40px;
+    margin-bottom:20px;
+    color:#ffc102;
+}
+
+.mission-text p{
+    color:white;
+    line-height:28px;
+    margin-bottom:30px;
+}
+
+.mission .btn{
+    display:inline-block;
+    background:#111;
+    color:#fff;
+    padding:14px 30px;
+    border-radius:6px;
+    transition:.3s;
+}
+
+.mission .btn:hover{
+    background:#f7b500;
+    color:#000;
+}
+
+.mission-image{
+    flex:1;
+}
+
+.mission-image img{
+    width:100%;
+    border-radius:15px;
+}
+
+/*==========================
+CONTACT
+==========================*/
+.contact{
+    padding:80px 8%;
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+    background:#111;
+}
+
+.contact-info,
+.contact-form{
+    width:48%;
+}
+
+.contact-info h5{
+    color:white;
+    margin-bottom:10px;
+}
+
+.contact-info h2{
+    font-size:38px;
+    margin-bottom:20px;
+    color: #f39c12;
+}
+
+.contact-info p{
+    margin-bottom:18px;
+    color:white;
+    line-height:28px;
+}
+
+.contact-info i{
+    color:white;
+    margin-right:10px;
+}
+
+.contact-form form{
+    display:flex;
+    flex-direction:column;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:18px;
+    border:1px solid #ddd;
+    border-radius:6px;
+    outline:none;
+    font-size:15px;
+}
+
+.contact-form button{
+    background:white;
+    color:#f39c12;
+    border:none;
+    padding:15px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.contact-form button:hover{
+    background:#f7b500;
+    color:#000;
+}
+
+/*==========================
+FOOTER
+==========================*/
+footer{
+    background:#111;
+    color:#ffc102;
+}
+
+.footer-container{
+    padding:60px 8%;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:40px;
+}
+
+.footer-box h2,
+.footer-box h3{
+    margin-bottom:20px;
+}
+
+.footer-box span{
+    color:#ffc102;
+}
+
+
+.footer-box p{
+    color:white;
+    line-height:28px;
+}
+
+.footer-box ul{
+    list-style:none;
+}
+
+.footer-box ul li{
+    margin-bottom:12px;
+    color: white;
+}
+
+.footer-box ul li a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-box ul li a:hover{
+    color: #f3f3f3;;
+}
+
+.footer-bottom{
+    border-top:1px solid #333;
+    text-align:center;
+    padding:20px;
+    color:white;
+}
+
+/*==========================
+RESPONSIVE
+==========================*/
+@media(max-width:992px){
+
+.hero,
+.about,
+.choose,
+.contact,
+.mission-content{
+    flex-direction:column;
+}
+
+.hero-text,
+.hero-image,
+.about-text,
+.about-image,
+.choose-left,
+.choose-right,
+.contact-info,
+.contact-form{
+    width:100%;
+}
+
+.features,
+.product-container,
+.service-container,
+.tool-container,
+.counter,
+.footer-container{
+    grid-template-columns:repeat(2,1fr);
+}
+
+nav{
+    flex-direction:column;
+    gap:20px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.hero-text h1{
+    font-size:42px;
+    line-height:55px;
+}
+
+.title h2{
+    font-size:32px;
+}
+
+}
+
+@media(max-width:768px){
+
+.features,
+.product-container,
+.service-container,
+.tool-container,
+.counter,
+.footer-container{
+    grid-template-columns:1fr;
+}
+
+.top-bar{
+    flex-direction:column;
+    gap:8px;
+    text-align:center;
+}
+
+.hero{
+    padding:60px 20px;
+}
+
+.about,
+.products,
+.services,
+.tools,
+.choose,
+.contact,
+.mission{
+    padding:60px 20px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+}
+
+.hero-text h1{
+    font-size:34px;
+    line-height:45px;
+}
+
+.about-text h2,
+.choose-left h2,
+.contact-info h2,
+.mission-text h2{
+    font-size:28px;
+}
+
+.quote-btn,
+.btn,
+.btn1,
+.btn2{
+    width:100%;
+    text-align:center;
+}
+}

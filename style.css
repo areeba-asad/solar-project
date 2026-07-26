@@ -1,0 +1,295 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#111;
+    color:#fff;
+}
+
+header{
+    width:90%;
+    margin:auto;
+    padding:25px 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo h1{
+    color:#f4b400;
+    font-size:42px;
+}
+
+.logo span{
+    color:#d6a800;
+    font-size:14px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#e39c02;
+    margin-left:25px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#f4b400;
+}
+
+.contact{
+    width:90%;
+    margin:50px auto;
+    display:flex;
+    justify-content:space-between;
+    gap:60px;
+}
+   .left{
+    width:40%;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.08);
+}
+ 
+  .left h1{
+    color:#f4b400;
+    margin-bottom:40px;
+    font-size:50px;
+}
+
+.left h3{
+    margin-bottom:20px;
+    color:#f4b400;
+}
+
+.left p{
+    margin:20px 0;
+    line-height:28px;
+}
+
+.left i{
+    color:#f4b400;
+    margin-right:10px;
+}
+
+.right{
+    width:60%;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.08;)
+    
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+
+input,
+textarea{
+    padding:16px;
+    margin-bottom:18px;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+}
+
+textarea{
+    height:180px;
+    resize:none;
+}
+
+button{
+    background:#f4b400;
+    color:#111;
+    border:none;
+    padding:16px;
+    font-size:18px;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#ffc107;
+}
+
+* ==========================
+   GOOGLE FONT
+========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0d0d0d;
+    color:#fff;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+nav{
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    position: sticky;
+    z-index: 1000;
+}
+.logo{
+    color: #ffc107;
+    font-size: 28px;
+}
+.logo span{
+    color: #ffc107;
+}
+.logo p{
+    color: #ffc107;
+    font-size: 13px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li a{
+    color: #ffc107;
+    font-weight: 500;
+    transition: .3s;
+}
+nav ul li a:hover{
+    color: #ffc107;
+}
+.contact-page{
+    width:90%;
+    margin:50px auto;
+}
+
+.contact-page h1{
+    font-size:40px;
+    color:#ffc107;
+    margin-bottom:30px;
+}
+
+.contact-container{
+    display:flex;
+    gap:30px;
+    margin-bottom:30px;
+}
+
+.contact-info,
+.contact-form{
+    flex:1;
+    background:#1b1b1b;
+    padding:30px;
+    border-radius:10px;
+    border:1px solid #333;
+}
+
+.contact-info h3,
+.contact-form h3{
+    color:#ffc107;
+    margin-bottom:25px;
+}
+
+.contact-info p{
+    margin:20px 0;
+    line-height:28px;
+    color:#ddd;
+}
+
+.contact-info i{
+    color:#ffc107;
+    margin-right:12px;
+    width:20px;
+}
+
+.contact-info a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.contact-info a:hover{
+    color:#ffc107;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    background:white;
+    color:#111;
+    border:1px solid #444;
+    padding:14px;
+    border-radius:6px;
+    margin-bottom:18px;
+    font-size:15px;
+}
+
+.contact-form textarea{
+    resize:none;
+}
+
+.contact-form button{
+    width:100%;
+    background:#ffc107;
+    color:#000;
+    border:none;
+    padding:15px;
+    border-radius:6px;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.contact-form button:hover{
+    background:#ffb300;
+}
+
+.map{
+    background:#1b1b1b;
+    padding:15px;
+    border-radius:10px;
+    border:1px solid #333;
+}
+
+.map iframe{
+    border-radius:10px;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:768px){
+
+.contact-container{
+    flex-direction:column;
+}
+
+.contact-page{
+    width:95%;
+}
+
+.contact-page h1{
+    font-size:30px;
+}
+
+
+}
