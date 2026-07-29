@@ -155,7 +155,8 @@ SERVICES
     padding:90px 8%;
     background:#111;
 }
-
+.title{
+color:#ffc102;}
 .service-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
