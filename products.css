@@ -67,7 +67,11 @@ nav ul li a:hover{
     gap:20px;
     padding-bottom:40px;
 }
-
+@media(max-width:768px){
+.product-container{
+grid-template-columns:1fr;
+}
+}
 /* Product Card */
 
 .card{
