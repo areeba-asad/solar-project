@@ -207,6 +207,8 @@ grid-template-columns:1fr;
 .price-rating h2{
     font-size:20px;
 }
+nav ul {
+flex-direction:column;}
 
 .buttons{
     flex-direction:column;
