@@ -314,7 +314,7 @@ INSTALLATION PROCESS
 
 .process-card:hover{
     transform:translateY(-10px);
-    background:#white;
+    background:white;
 }
 
 .number{
