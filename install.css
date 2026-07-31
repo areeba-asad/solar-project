@@ -33,10 +33,10 @@ ul{
 
 /* Main nav container jo sab items (logo, menu links, buttons) ko layout karega */
 nav {
-    display: flex;
+     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 80px;
+    padding: 30px 300px;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -57,14 +57,16 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: #ffc107;
+    font-weight: 500;
     transition: color 0.3s ease;    /* Smooth hover effect ke liye */
 }
 .installation-btn{
-    margin-left: 30px;
+    margin-left: 60px;
     background: #ffc102;
     color: #fff;
     padding: 12px 25px;
     border-radius: 6px;
+    justify-content: space-between;
 }
 .installation-btn:hover{
     background: white;
