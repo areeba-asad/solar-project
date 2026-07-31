@@ -9,8 +9,8 @@
 }
 
 body{
-    background:#111;
-    color:#ffc102;
+    background:#0d0d0d;
+    color:#fff;
 }
 
 /* ================= NAVBAR ================= */
@@ -36,34 +36,44 @@ header{
     color: #ffc107;
     font-size: 13px;
 }
-
+nav{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 250px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #111
+}
+.installation-btn{
+    margin-left: 60px;
+    background: #ffc102;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+.installation-btn:hover{
+    background: white;
+    color: #000;
+}
 nav ul{
     display:flex;
     list-style:none;
-    gap:30px;
+    gap:35px;
 }
 
 nav ul li a{
     text-decoration:none;
     color:#ffc107;
-    font-weight:500;
+    font-size:15px;
     transition:.3s;
 }
 
 nav ul li a:hover,
 nav ul li a.active{
     color:#ffc107;
-}
-.installation-btn{
-    background:#ffc102;
-    color:#fff;
-    padding:12px 25px;
-    border-radius:6px;
-    transition:.3s;
-}
-.installtion-btn:hover{
-    background:#111;
-    color:#000;
 }
 
 /* ================= PAGE TITLE ================= */
