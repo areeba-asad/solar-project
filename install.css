@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 /*==========================
 INSTALLATION PAGE CSS
 =====================*/
@@ -8,9 +7,6 @@ INSTALLATION PAGE CSS
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
 }
-body{
-    background:#111;
-    color:#ffc102;
 header{
     padding: 18px 8%;
     background: #111;
@@ -27,38 +23,55 @@ ul{
     list-style: none;
 }
 .logo h2 {
-    font-size: 28px;
-    color: #ffc102;
+    font-size: 30px;
+    color: #ffc107;
 }
 .logo p{
     color: #FFC107;
-    font-size:13 px;
+    font-size: 13px;
 }
-nav ul{
+
+/* Main nav container jo sab items (logo, menu links, buttons) ko layout karega */
+nav {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 300px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #111;
+    
+}
+
+/* Links ki list ko center rakhne ke liye */
+nav ul {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
 }
-nav ul li a{
+
+/* Individual links ki styling */
+nav ul li a {
     text-decoration: none;
-    color: #ffc102;
-    transition:.3s;
-    font-weight: 500;
-}
-nav ul li a:hover{
     color: #ffc107;
+    font-weight: 500;
+    transition: color 0.3s ease;    /* Smooth hover effect ke liye */
 }
-    .installation-btn{
-        background:#ffc102;
-        color:#fff;
-        padding:12px 25px;
-        border-radius:6px;
-        transition:.3s;
-    }
-    .installation-btn:hover{
-        background:#111;
-        color:#000;
-    }
+.installation-btn{
+    margin-left: 60px;
+    background: #ffc102;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+.installation-btn:hover{
+    background: white;
+    color: #000;
+}
 .install-hero{
     width:100%;
     min-height:80px;
@@ -170,10 +183,7 @@ SERVICES
     padding:90px 8%;
     background:#111;
 }
-.title{
-h4 h3 p{
-color:#ffc102;}
-}
+
 .service-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
@@ -209,7 +219,8 @@ color:#ffc102;}
     padding:0 20px 25px;
     color:#ffc107;
     line-height:1.7;
-}/*==========================
+}
+/*==========================
 WHY INSTALL WITH US
 ===========================*/
 
