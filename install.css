@@ -33,7 +33,6 @@ ul{
 
 /* Main nav container jo sab items (logo, menu links, buttons) ko layout karega */
 nav {
-     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 300px;
