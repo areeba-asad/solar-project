@@ -20,7 +20,6 @@ html{
 body{
     background:#111;
     color:#ffc102;
-    line-height:1.6;
 }
 
 img{
@@ -40,7 +39,7 @@ ul{
  TOP BAR
 ==========================*/
 .top-bar{
-    background:#222;
+    background:#111;
     color:#fff;
     display:flex;
     justify-content:space-between;
@@ -518,6 +517,75 @@ MISSION
 .mission-image img{
     width:100%;
     border-radius:15px;
+}
+
+/*==========================
+CONTACT
+==========================*/
+.contact{
+    padding:80px 8%;
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+    background:#111;
+}
+
+.contact-info,
+.contact-form{
+    width:48%;
+}
+
+.contact-info h5{
+    color:white;
+    margin-bottom:10px;
+}
+
+.contact-info h2{
+    font-size:38px;
+    margin-bottom:20px;
+    color: #f39c12;
+}
+
+.contact-info p{
+    margin-bottom:18px;
+    color:white;
+    line-height:28px;
+}
+
+.contact-info i{
+    color:white;
+    margin-right:10px;
+}
+
+.contact-form form{
+    display:flex;
+    flex-direction:column;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:18px;
+    border:1px solid #ddd;
+    border-radius:6px;
+    outline:none;
+    font-size:15px;
+}
+
+.contact-form button{
+    background:white;
+    color:#f39c12;
+    border:none;
+    padding:15px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.contact-form button:hover{
+    background:#f7b500;
+    color:#000;
 }
 
 /*==========================
