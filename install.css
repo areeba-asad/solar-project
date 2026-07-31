@@ -220,6 +220,9 @@ SERVICES
     color:#ffc107;
     line-height:1.7;
 }
+.install title h4 h2 p {
+    color:white
+}
 /*==========================
 WHY INSTALL WITH US
 ===========================*/
