@@ -36,7 +36,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 80px;
+    padding: 20px 80px;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -60,7 +60,7 @@ nav ul li a {
     transition: color 0.3s ease;    /* Smooth hover effect ke liye */
 }
 .installation-btn{
-    margin-left: 60px;
+    margin-left: 30px;
     background: #ffc102;
     color: #fff;
     padding: 12px 25px;
