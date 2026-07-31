@@ -9,8 +9,8 @@
 }
 
 body{
-    background:#1b1b1b;
-    color:#fff;
+    background:#111;
+    color:#ffc102;
 }
 @media(max-width:768px){
 header{
@@ -20,11 +20,11 @@ flex-direction:column;}
 }
 header{
     width: 100%;
-    background: #000;
+    background: #111;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 8%;
+    padding: 18px 8%;
     border-bottom: 1px solid #222;
 }
 .logo span{
@@ -46,7 +46,7 @@ nav ul{
 nav ul li a{
     text-decoration: none;
     color: #ffc102;
-    font-size: 15px;
+    font-weight:500;
     transition: .3s;
 }
 nav ul li a:hover{
@@ -272,6 +272,7 @@ body{
     background:#000;
     color:#fff;
 }
-
+
+
 
 }
