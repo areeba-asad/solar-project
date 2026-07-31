@@ -8,6 +8,9 @@ INSTALLATION PAGE CSS
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
 }
+body{
+    background:#111;
+    color:#ffc102;
 header{
     padding: 18px 8%;
     background: #111;
@@ -24,12 +27,12 @@ ul{
     list-style: none;
 }
 .logo h2 {
-    font-size: 30px;
-    color: #ffc107;
+    font-size: 28px;
+    color: #ffc102;
 }
 .logo p{
     color: #FFC107;
-    font-size: 13px;
+    font-size:13 px;
 }
 nav ul{
     display: flex;
@@ -38,8 +41,8 @@ nav ul{
 }
 nav ul li a{
     text-decoration: none;
-    color: #ffc107;
-    font-size: 15px;
+    color: #ffc102;
+    transition:.3s;
     font-weight: 500;
 }
 nav ul li a:hover{
