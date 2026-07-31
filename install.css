@@ -64,7 +64,6 @@ nav ul li a {
     color: #fff;
     padding: 12px 25px;
     border-radius: 6px;
-    justify-content: space-between;
 }
 .installation-btn:hover{
     background: white;
