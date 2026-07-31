@@ -61,11 +61,12 @@ nav ul li a {
     transition: color 0.3s ease;    /* Smooth hover effect ke liye */
 }
 .installation-btn{
-    margin-left: 60px;
+    margin-left: auto;
     background: #ffc102;
     color: #fff;
     padding: 12px 25px;
     border-radius: 6px;
+    display: flex;
     justify-content: space-between;
 }
 .installation-btn:hover{
